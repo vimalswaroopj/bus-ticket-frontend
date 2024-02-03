@@ -45,6 +45,7 @@ export const TicketForm = (props: { selectedSeatNo: any }): JSX.Element => {
     setEditing(false);
     resetState();
     window.location.href = "/dashboard";
+    localStorage.setItem("navItem", "2");
   };
 
   return (
