@@ -9,7 +9,7 @@ function App() {
       <NavigationBar />
       <HashRouter basename="/bus-ticket-frontend">
         <Routes>
-          <Route path="/bus-ticket-frontend" element={<Seatbooking />} />
+          <Route path="/" element={<Seatbooking />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </HashRouter>
