@@ -1,18 +1,25 @@
+import React from "react";
 import { Dashboard } from "./ui/Dashboard/Dashboard";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { NavigationBar } from "./ui/NavigationBar/NavigationBar";
 import { Seatbooking } from "./ui/SeatBooking/SeatBooking";
-console.log("deploy");
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Seatbooking />,
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+  },
+]);
 function App() {
   return (
     <>
       <NavigationBar />
-      <HashRouter basename="/bus-ticket-frontend">
-        <Routes>
-          <Route path="/bus-ticket-frontend" element={<Seatbooking />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      </HashRouter>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
     </>
   );
 }
