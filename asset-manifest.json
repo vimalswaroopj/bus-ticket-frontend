@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bus-ticket-frontend/static/css/main.73c4f9c0.css",
-    "main.js": "/bus-ticket-frontend/static/js/main.e89c1402.js",
+    "main.js": "/bus-ticket-frontend/static/js/main.f9796a0b.js",
     "index.html": "/bus-ticket-frontend/index.html",
     "main.73c4f9c0.css.map": "/bus-ticket-frontend/static/css/main.73c4f9c0.css.map",
-    "main.e89c1402.js.map": "/bus-ticket-frontend/static/js/main.e89c1402.js.map"
+    "main.f9796a0b.js.map": "/bus-ticket-frontend/static/js/main.f9796a0b.js.map"
   },
   "entrypoints": [
     "static/css/main.73c4f9c0.css",
-    "static/js/main.e89c1402.js"
+    "static/js/main.f9796a0b.js"
   ]
 }
