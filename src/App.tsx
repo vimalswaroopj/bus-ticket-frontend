@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Dashboard } from "./ui/Dashboard/Dashboard";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { NavigationBar } from "./ui/NavigationBar/NavigationBar";
+import { Seatbooking } from "./ui/SeatBooking/SeatBooking";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Seatbooking />,
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+  },
+]);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavigationBar />
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
+    </>
   );
 }
 

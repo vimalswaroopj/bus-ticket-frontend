@@ -1,0 +1,28 @@
+.SeatBookingContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.SeatRow {
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.DeckText {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.SeatContainer {
+  background: gray;
+  width: fit-content;
+  margin-right: 8px;
+}
+
+.BookedSeatContainer {
+  cursor: pointer;
+  width: fit-content;
+  margin-right: 8px;
+}
