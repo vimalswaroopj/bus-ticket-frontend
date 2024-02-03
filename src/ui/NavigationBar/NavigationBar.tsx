@@ -13,10 +13,14 @@ export const NavigationBar = () => {
     <div className={"NavigationContainer"}>
       <Select value={option} onChange={onSelect}>
         <MenuItem value={"1"}>
-          <a href="/">{GLOBAL_CONSTANTS.RESERVATION}</a>
+          <a href="https://vimalswaroopj.github.io/bus-ticket-frontend">
+            {GLOBAL_CONSTANTS.RESERVATION}
+          </a>
         </MenuItem>
         <MenuItem value={"2"}>
-          <a href="/dashboard">{GLOBAL_CONSTANTS.DASHBOARD}</a>
+          <a href="https://vimalswaroopj.github.io/bus-ticket-frontend/dashboard">
+            {GLOBAL_CONSTANTS.DASHBOARD}
+          </a>
         </MenuItem>
       </Select>
     </div>
