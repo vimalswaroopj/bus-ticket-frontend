@@ -13,7 +13,7 @@ export const NavigationBar = () => {
     <div className={"NavigationContainer"}>
       <Select value={option} onChange={onSelect}>
         <MenuItem value={"1"}>
-          <a href="/bus-ticket-frontend">{GLOBAL_CONSTANTS.RESERVATION}</a>
+          <a href="/">{GLOBAL_CONSTANTS.RESERVATION}</a>
         </MenuItem>
         <MenuItem value={"2"}>
           <a href="/dashboard">{GLOBAL_CONSTANTS.DASHBOARD}</a>
