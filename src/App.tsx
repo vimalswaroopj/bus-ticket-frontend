@@ -1,4 +1,3 @@
-import React from "react";
 import { Dashboard } from "./ui/Dashboard/Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavigationBar } from "./ui/NavigationBar/NavigationBar";
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <BrowserRouter basename="/bus-ticket-frontend/">
+      <BrowserRouter basename="/bus-ticket-frontend">
         <Routes>
           <Route path="/" element={<Seatbooking />} />
           <Route path="/dashboard" element={<Dashboard />} />
