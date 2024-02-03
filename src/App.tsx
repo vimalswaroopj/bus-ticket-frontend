@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/bus-ticket-frontend/">
         <Routes>
           <Route path="/" element={<Seatbooking />} />
           <Route path="/dashboard" element={<Dashboard />} />
