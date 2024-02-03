@@ -1,0 +1,15 @@
+export const GLOBAL_CONSTANTS = Object.freeze({
+  LOWER_DECK: "Lower Deck",
+  UPPER_DECK: "Upper Deck",
+  SEAT_NO: "Seat No",
+  CANCEL: "Cancel",
+  SAVE: "Save",
+  RESERVATION: "Reservation",
+  DASHBOARD: "Dashboard",
+  NAME: "Name",
+  EMAIL: "Email",
+  DOB: "DOB",
+  ACTION: "Action",
+  EDIT: "Edit",
+  DELETE: "Delete",
+});

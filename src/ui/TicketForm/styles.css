@@ -1,0 +1,31 @@
+.MuiInputBase-root {
+  margin-right: 12px !important;
+  height: 40px !important;
+}
+
+.FormContainer {
+  display: flex;
+  align-items: center;
+}
+
+.SeatNo {
+  margin: 0;
+  padding: 0;
+  margin-right: 12px;
+}
+
+.ButtonContainer {
+  align-items: center;
+}
+
+.CancelButton {
+  color: white;
+  background: grey !important;
+  margin-right: 8px !important;
+  height: 40px;
+}
+
+.SaveButton {
+  color: white;
+  height: 40px;
+}

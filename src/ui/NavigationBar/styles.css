@@ -1,0 +1,15 @@
+.NavigationContainer {
+  display: flex;
+  flex: 1;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: tomato;
+}
+
+.MuiInputBase-root {
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
