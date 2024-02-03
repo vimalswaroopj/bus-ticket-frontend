@@ -9,8 +9,11 @@ function App() {
       <NavigationBar />
       <BrowserRouter basename="/bus-ticket-frontend">
         <Routes>
-          <Route path="/" element={<Seatbooking />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/bus-ticket-frontend" element={<Seatbooking />} />
+          <Route
+            path="/bus-ticket-frontend/dashboard"
+            element={<Dashboard />}
+          />
         </Routes>
       </BrowserRouter>
     </>
