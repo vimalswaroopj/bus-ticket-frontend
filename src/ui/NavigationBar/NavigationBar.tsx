@@ -16,9 +16,7 @@ export const NavigationBar = () => {
           <a href="/bus-ticket-frontend">{GLOBAL_CONSTANTS.RESERVATION}</a>
         </MenuItem>
         <MenuItem value={"2"}>
-          <a href="/bus-ticket-frontend/dashboard">
-            {GLOBAL_CONSTANTS.DASHBOARD}
-          </a>
+          <a href="/dashboard">{GLOBAL_CONSTANTS.DASHBOARD}</a>
         </MenuItem>
       </Select>
     </div>
